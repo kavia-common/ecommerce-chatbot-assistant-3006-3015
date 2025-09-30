@@ -16,6 +16,9 @@ Ocean Professional theme: blue primary (#2563EB), amber accents (#F59E0B), minim
 1) Install dependencies
 ```
 pip install -r requirements.txt
+# Note: If your environment was provisioned before this fix and lacks pydantic-settings,
+# install it explicitly:
+# pip install pydantic-settings==2.6.1
 ```
 
 2) Run locally

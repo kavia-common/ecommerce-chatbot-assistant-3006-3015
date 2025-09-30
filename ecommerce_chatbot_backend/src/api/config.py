@@ -10,7 +10,10 @@ Ocean Professional note:
 from functools import lru_cache
 from typing import List, Optional
 
-from pydantic import BaseSettings, Field, AnyHttpUrl
+# Pydantic v2 migration note:
+# BaseSettings moved to the separate package pydantic-settings.
+from pydantic_settings import BaseSettings
+from pydantic import Field, AnyHttpUrl
 from dotenv import load_dotenv
 
 # Load .env if present (non-fatal if missing)
