@@ -1,0 +1,4 @@
+{
+    "command": "source venv/bin/activate && uvicorn src.api.main:app --host <host> --port <port>",
+    "working_directory": "/home/kavia/workspace/code-generation/ecommerce-chatbot-assistant-3006-3015/ecommerce_chatbot_backend"
+}
